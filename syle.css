@@ -1,0 +1,115 @@
+
+
+
+.built{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.free{
+    background-color: red;
+    border: none;
+    color: white;
+    margin-left: 3.5rem;
+    padding: 7px;
+    width: fit-content;
+    border-radius: 5px;
+}
+.boxes{
+    justify-content: center;
+    
+}
+
+.material{
+    background-color: rgb(199, 192, 192);
+    height: 100vh;
+    padding: 1rem;
+}
+.box1{
+    background-color: white;
+    color: grey;
+    padding: 2rem;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 5px;
+    
+    
+}
+.box2{
+    background-color: rgb(12, 12, 91);
+    color: white;
+    padding: 2rem;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 5px;
+    
+    
+}
+.box3{
+    background-image: linear-gradient(to right,pink,purple);
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    width: 30rem;
+    color: white;
+    border-radius: 5px;
+    
+}
+.box4{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    width: 30rem;
+    color: orangered;
+    border-radius: 5px;
+    
+}
+
+.next{
+    background-color: rgb(41, 156, 41);
+    color: white;
+    border: none;
+    /* padding:px ; */
+    width:5rem ;
+    height:3rem ;
+    margin-left: 10rem;
+    border-radius: 5px;
+    
+    
+}
+.next1{
+    background-color: rgb(12, 12, 91);
+    color: white;
+    border: solid white;
+    /* padding: 5px; */
+    width: 5rem;
+    height: 3rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+    border-radius: 5px;
+}
+.bo1{
+   background-color: grey; 
+   border: 1px solid grey;
+   
+}
+.bo2{
+    background-color: white;
+    border: 1px solid white;
+}
+.login{
+    justify-content: center;
+    display: flex;
+    
+}
+.login1{
+    justify-content: center;
+    display: flex;
+}
+.padlock{
+    padding-right: 7px;
+}
