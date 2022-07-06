@@ -20,7 +20,7 @@
     <div class="material">
 
         <div class="built">
-            <p><b>Built With Material Design for Bootstrap 4</b> <br><br><button class="free">FREE DOWNLOAD</button>
+            <p><b>Built With Material Design for Bootstrap 4</b> <br><br><button class="free p-md-2">FREE DOWNLOAD</button>
             </p>
             <!-- <button>FREE DOWNLOAD</button> -->
         </div>
@@ -29,19 +29,60 @@
 
 
                 <h4 class="login1"> <i class="fas fa-lock  padlock  "></i> <b>Login</b></h4><br>
-                <p> Your Email</p>
-                <hr class="bo1"><br>
-                <p>Your Password</p>
-                <hr class="bo1"><br>
-                <button class="next">NEXT</button>
+                
+                <form class="d-flex gap-2">
+                    <i class="fas fa-envelope fa-2x "></i>
+                
+                    <label for="fname"></label>
+                    <input type="email" id="fname" name="fname" placeholder="Your Email" class="input1" required>
+                
+                </form><br><br>
+                
+                <form class="d-flex gap-2">
+                    <i class="fas fa-lock  fa-2x"></i>
+                
+                    <label for="fname"></label>
+                    <input type="password" id="fname" name="fname"  placeholder = "Your Password" class="input1">
+                
+                </form>
+                <!-- <button class="next w-25 ">NEXT</button> -->
+                <div class="d-flex button1">
+                    <div>
+                        <div class="btn btn-success mt-4">Next</div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
             <div class="col-md-5 box2">
+                
                 <h4 class="login"> <i class="fas fa-lock padlock "></i> <b>Login</b></h4><br>
-                <p>Your Email</p>
-                <hr class="bo2"><br>
-                <p>Your Password</p>
-                <hr class="bo2"><br>
-                <button class="next1">NEXT</button>
+                
+                <form class="d-flex gap-2">
+                    <i class="fas fa-envelope  fa-2x  "></i>
+                    <label for="yname"></label>
+                    <input type="email" id="yname" name="yname" placeholder="Your Email" required>
+
+                </form><br><br>
+                
+                
+                <form class="d-flex gap-2">
+                    <i class="fas fa-lock  fa-2x  "></i>
+                
+                    <label for="yname"></label>
+                    <input type="password" id="yname" name="yname" placeholder="Your Password" class="">
+                
+                </form>
+            
+                
+                <div class="d-flex button1">
+                    <div>
+                        <div class="btn  btn-outline-light mt-4">Next</div>
+                    </div>
+                    
+                </div>
+                <!-- <button class="next1 w-25">NEXT</button> -->
             </div>
             <div class="col-md-5 box3">
                 <h5><b>SIGN UP</b></h5>
